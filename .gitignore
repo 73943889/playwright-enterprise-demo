@@ -1,0 +1,17 @@
+# Dependencias
+node_modules/
+/core-pack/
+
+# Reportes y resultados de Playwright
+playwright-report/
+html-report/
+test-results/
+test-output/
+.playwright-artifacts/
+
+# Evitar subir videos y trazas locales
+*.mp4
+*.zip
+
+# Entornos (Si manejas contraseñas reales en el futuro, no se deben subir)
+#.env.* ```
