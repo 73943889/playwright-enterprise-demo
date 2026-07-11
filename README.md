@@ -38,7 +38,7 @@ Git
 Sigue estos pasos secuenciales en tu terminal para clonar el repositorio y preparar el entorno local de pruebas:
 
 Clonar el repositorio:
-git clone <URL_DE_TU_REPOSITORIO_DE_GITHUB>
+git clone https://github.com/73943889/playwright-enterprise-demo
 cd playwright-enterprise-demo
 
 Instalar dependencias de Node.js:

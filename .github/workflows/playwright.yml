@@ -13,7 +13,7 @@ jobs:
     
     - uses: actions/setup-node@v4
       with:
-        node-size: 20
+        node-version: 20
         cache: 'npm'
         
     - name: Install dependencies
@@ -24,7 +24,9 @@ jobs:
       
     - name: Run Playwright tests
       run: npx playwright test
-      
+      env:
+        ENV: dev 
+        
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
